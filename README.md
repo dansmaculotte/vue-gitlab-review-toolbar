@@ -7,7 +7,7 @@
 
 > Vue.js plugin for Gitlab Review Toolbar
 
-This feature from Gitlab is undocumented. You can find after setting up a review app in merge request.
+This feature from Gitlab is undocumented. You can find it after setting up a review app in merge request.
 
 Component code is accessible [here](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/vendor/assets/javascripts/visual_review_toolbar.js).
 
@@ -68,11 +68,11 @@ Vue.use(GitlabReviewToolbar, {
 [MIT License](./LICENSE.md)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/dt/@dansmaculotte/vue-gitlab-review-toolbar.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@dansmaculotte/vue-gitlab-review-toolbar
-
-[npm-downloads-src]: https://img.shields.io/npm/v/@dansmaculotte/vue-gitlab-review-toolbar/latest.svg?style=flat-square
+[npm-downloads-src]: https://img.shields.io/npm/dt/@dansmaculotte/vue-gitlab-review-toolbar.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@dansmaculotte/vue-gitlab-review-toolbar
+
+[npm-version-src]: https://img.shields.io/npm/v/@dansmaculotte/vue-gitlab-review-toolbar/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@dansmaculotte/vue-gitlab-review-toolbar
 
 [david-dm-src]: https://david-dm.org/dansmaculotte/vue-gitlab-review-toolbar/status.svg?style=flat-square
 [david-dm-href]: https://david-dm.org/dansmaculotte/vue-gitlab-review-toolbar
