@@ -27,6 +27,7 @@ import GitlabReviewToolbar from '@dansmaculotte/vue-gitlab-review-toolbar'
 
 Vue.use(GitlabReviewToolbar, {
   projectId: 'GITLAB_PROJECT_ID',
+  projectPath: 'GITLAB_PROJECT_PATH',
   mergeRequestId: 'GITLAB_MERGE_REQUEST_ID',
   mergeRequestUrl: 'YOUR_GITLAB_URL',
   personalAccessToken: 'YOUR_PERSONAL_ACCESS_TOKEN'
@@ -38,6 +39,11 @@ Vue.use(GitlabReviewToolbar, {
 ## Options
 
 ### projectId
+
+- Type: `String`
+  - Default: `''`
+
+### projectPath
 
 - Type: `String`
   - Default: `''`
